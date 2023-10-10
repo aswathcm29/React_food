@@ -1,0 +1,122 @@
+*{
+  font-family: ;
+}
+
+
+.food-logo{
+  height:8%;
+  width:8%;
+  border-radius:20px;
+}
+
+.header{
+  color:white;
+  display:flex;
+  justify-content:space-around;
+  margin:0px;
+  border: 3px solid white;
+  border-radius:10px;
+  background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
+}
+
+nav > ul{
+  display:flex;
+  justify-content: space-around;
+  align-items:center;
+}
+
+nav>ul>li{
+  list-style-type: none;
+  margin:9px;
+}
+
+.search-bar{
+  margin:30px;
+  display:flex;
+  align-items: center;
+  justify-content:center;
+ 
+}
+
+.search-bar > button{
+  display:inline-block;
+  height:60px;
+  width:120px;
+  border-radius:10px;
+  border:3px solid white;
+  color:white;
+  background-color: black;
+  font-weight:bold;
+  font-size:16px;
+}
+.search-bar > button:hover{
+  background-color: white;
+  border:4px solid black;
+  color:black;
+}
+.search-input{
+  display:inline-block;
+  width:30%;
+  height:50px;
+  border-radius:10px;
+  border:3px solid black;
+  font-size:16px;
+  font-weight: bolder;
+}
+.search-input::placeholder{
+  text-align:center;
+  color:gray;
+}
+
+.res-cards >img{
+ width:290px;
+ height:200px;
+ border-radius:7px;
+}
+
+.res-cards{
+  color:white;
+  margin:9px;
+  width:290px;
+  height:355px;
+  padding:7px;
+  border:3.5px solid white;
+  border-radius:14px;
+  background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
+}
+
+.res-card-details{
+  display:flex;
+  justify-content: space-between;
+  margin-left:10px;
+  margin-bottom:20px;
+}
+
+.res-cards:hover{
+  border:3.5px solid black;
+  cursor:pointer;
+  background: linear-gradient(109.6deg, rgba(255, 255, 255, 0.8) 11.2%, rgba(255, 255, 255, 0.6) 51.2%, rgba(255, 255, 255, 0.2) 98.6%);
+
+
+  color:black;
+}
+
+
+.total-cards{
+  display:flex;
+  flex-wrap: wrap;
+  margin-left:6.5%;
+}
+
+footer{
+  margin:10px;
+  padding:10px;
+  border: 2.5px solid white;
+  border-radius:10px;
+  color:white;
+}
+
+
+.food-container{
+  background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+}
